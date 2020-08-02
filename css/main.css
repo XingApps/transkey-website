@@ -64,6 +64,10 @@ body {
   color: #1D232D;
 }
 
+.nav-link.active {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 4rem;
   font-weight: 700;
