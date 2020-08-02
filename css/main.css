@@ -23,6 +23,7 @@
 .section {
   margin: 4rem 0;
   padding: 4rem 0;
+  overflow: hidden;
 }
 
 .section-default {
@@ -47,7 +48,19 @@
   font-weight: 600;
 }
 
+.btn-appstore {
+  background: url('../img/appstore-badge.svg');
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
+  color: #1D232D;
+}
+
+.navbar-light .navbar-nav .nav-link {
   color: #1D232D;
 }
 
@@ -115,4 +128,18 @@ a:hover {
 
 .card {
   height: 100%;
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+  }
 }

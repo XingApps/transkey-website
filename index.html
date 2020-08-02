@@ -25,12 +25,13 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-sm bg-white border-bottom">
+  <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom">
     <div class="container">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand p-0" href="index.html">
         <img draggable="false" src="img/app-icon.svg">
         <span class="wordmark align-middle">TransKey</span>
       </a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,8 +47,11 @@
           <li class="nav-item">
             <a class="nav-link" href="help.html" target="_self">Help</a>
           </li>
+          <li class="nav-item d-block d-md-none">
+            <a class="nav-link" href="https://apps.apple.com/us/app/transkey-chat-translator-app/id1021102012" target="_blank">Get the App</a>
+          </li>
         </ul>
-        <form class="form-inline">
+        <form class="form-inline d-none d-md-block">
           <a class="btn btn-primary btn-lg" role="button" href="https://apps.apple.com/us/app/transkey-chat-translator-app/id1021102012" target="_blank">Get the App</a>
         </form>
       </div>
@@ -60,11 +64,11 @@
         <div class="row">
           <div class="col">
             <header class="text-center">
-              <h1>Chat with anyone,<br>in any language.</h1>
+              <h1>Chat with anyone, in any language.</h1>
               <h3 class="mb-4 text-muted">The #1 chat translator</h3>
               <a class="btn btn-lg" role="button" href="https://apps.apple.com/us/app/transkey-chat-translator-app/id1021102012" target="_blank">
-                <img draggable="false" width="100%" height="100%" src="img/appstore-badge.svg">
-              </a>
+              <img src="img/appstore-badge.svg" height="48px">
+            </a>
             </header>
           </div>
         </div>
@@ -95,7 +99,7 @@
           </div>
         </div>
         <div class="row mb-3">
-          <div class="col col-6">
+          <div class="col col-12 col-md-6">
             <article class="d-flex mb-4">
               <aside>
                 <i class="fas fa-quote-right text-secondary"></i>
@@ -117,7 +121,7 @@
               </div>
             </article>
           </div>
-          <div class="col col-6">
+          <div class="col col-12 col-md-6">
             <article class="d-flex mb-4">
               <aside>
                 <i class="fas fa-quote-right text-secondary"></i>
@@ -139,7 +143,7 @@
               </div>
             </article>
           </div>
-          <div class="col col-6">
+          <div class="col col-12 col-md-6">
             <article class="d-flex mb-4">
               <aside>
                 <i class="fas fa-quote-right text-secondary"></i>
@@ -161,7 +165,7 @@
               </div>
             </article>
           </div>
-          <div class="col col-6">
+          <div class="col col-12 col-md-6">
             <article class="d-flex mb-4">
               <aside>
                 <i class="fas fa-quote-right text-secondary"></i>
@@ -226,14 +230,14 @@
     <section id="users" class="section section-default">
       <div class="container">
         <div class="row">
-          <div class="col-8">
+          <div class="col-12 col-8">
             <header>
               <h1>Trusted by 300,000 users daily.</h1>
             </header>
           </div>
         </div>
         <div class="row justify-content-end">
-          <div class="col-8 text-right">
+          <div class="col-12 col-8 text-right">
             <img draggable="false" src="img/illustration-users.svg">
           </div>
         </div>
@@ -249,37 +253,37 @@
             </header>
           </div>
         </div>
-        <div class="row justify-content-between mb-5">
-          <div class="col-3">
+        <div class="row justify-content-around">
+          <div class="col col-8 col-md-3 mb-5">
             <div class="card text-center">
               <svg height="180px" width="100%" class="card-img-top">
                 <rect width="100%" height="100%" fill="#5395ED"></rect>
                 <image x="50%" y="50%" transform="translate(-34,-34)" href="img/unlimited-icon.svg"></image>
               </svg>
-              <div class="card-body align-items-center d-flex justify-content-center">
+              <div class="card-body align-items-center d-flex flex-column justify-content-center">
                 <h5 class="mb-0">Unlimited translations</h5>
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col col-8 col-md-3 mb-5">
             <div class="card text-center">
               <svg height="180px" width="100%" class="card-img-top">
                 <rect width="100%" height="100%" fill="#5395ED"></rect>
                 <image x="50%" y="50%" transform="translate(-34,-34)" href="img/translate-icon.svg"></image>
               </svg>
-              <div class="card-body align-items-center d-flex justify-content-center">
+              <div class="card-body align-items-center d-flex flex-column justify-content-center">
                 <h5 class="mb-0">Higher-quality results</h5>
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col col-8 col-md-3 mb-5">
             <div class="card d-flex text-center">
               <svg height="180px" width="100%" class="card-img-top">
                 <rect width="100%" height="100%" fill="#5395ED"></rect>
                 <image x="50%" y="50%" transform="translate(-34,-34)" href="img/globe-icon.svg"></image>
               </svg>
-              <div class="card-body align-items-center d-flex justify-content-center">
-                <h5 class="mb-0">Neural-net technology</h5>
+              <div class="card-body align-items-center d-flex flex-column justify-content-center">
+                <h5 class="mb-0">More language pairs</h5>
               </div>
             </div>
           </div>
@@ -325,8 +329,8 @@
             </header>
           </div>
         </div>
-        <div class="row justify-content-between">
-          <div class="col-3">
+        <div class="row justify-content-around">
+          <div class="col col-8 col-md-3 mb-5 mb-md-0">
             <div class="card text-center">
               <div class="card-body">
                 <h3>1.</h3>
@@ -334,7 +338,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col col-8 col-md-3 mb-5 mb-md-0">
             <div class="card text-center">
               <div class="card-body">
                 <h3>2.</h3>
@@ -342,7 +346,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col col-8 col-md-3 mb-5 mb-md-0">
             <div class="card text-center">
               <div class="card-body">
                 <h3>3.</h3>
@@ -357,29 +361,29 @@
     <section id="features" class="section section-default">
       <div class="container">
         <div class="row mb-5 ">
-          <div class="col-6 d-flex flex-column justify-content-center">
+          <div class="col col-12 col-md-6 d-flex flex-column justify-content-center">
             <h1>Never leave your app to translate.</h1>
-            <h3>Experience continuity like never before. It's almost as if you're both speaking the same langauge.</h3>
+            <h3 class="text-muted">Experience continuity like never before. It's almost as if you're both speaking the same langauge.</h3>
           </div>
-          <div class="col-6 text-right">
+          <div class="col col-6 text-right d-none d-md-block">
             <img draggable="false" src="img/mockup-continuity.svg">
           </div>
         </div>
         <div class="row mb-5">
-          <div class="col-6 text-left">
+          <div class="col col-6 text-left d-none d-md-block">
             <img draggable="false" src="img/mockup-single.svg">
           </div>
-          <div class="col-6 d-flex flex-column justify-content-center">
+          <div class="col col-12 col-md-6 d-flex flex-column justify-content-center">
             <h1>Powerful neural-net translation.</h1>
-            <h3>At the forefront of advanced Machine Learning technology. The 2nd best thing to a human translator.</h3>
+            <h3 class="text-muted">At the forefront of advanced Machine Learning technology. The 2nd best thing to a human translator.</h3>
           </div>
         </div>
         <div class="row">
-          <div class="col-6 d-flex flex-column justify-content-center">
+          <div class="col col-12 col-md-6 d-flex flex-column justify-content-center">
             <h1>Highlight to translate anything.</h1>
-            <h3>Emails, recipes, documents, and more. Don't stop at messages, anything you can highlight you can translate.</h3>
+            <h3 class="text-muted">Emails, recipes, documents, and more. Don't stop at messages, anything you can highlight you can translate.</h3>
           </div>
-          <div class="col-6 text-right">
+          <div class="col col-6 text-right d-none d-md-block">
             <img draggable="false" src="img/mockup-highlight.svg">
           </div>
         </div>
@@ -398,17 +402,17 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col col-12 col-md-4">
           <ul class="navbar-nav text-center justify-content-between h-100">
             <li class="nav-item">
-              <a class="btn btn-primary btn-lg" role="button" href="https://apps.apple.com/us/app/transkey-chat-translator-app/id1021102012">Download for free</a>
+              <a class="btn btn-primary btn-lg mb-2" role="button" href="https://apps.apple.com/us/app/transkey-chat-translator-app/id1021102012">Download for free</a>
             </li>
             <li class="nav-item">
-              <p>Copyright 2020</p>
+              <p>&copy; Copyright 2020</p>
             </li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-4">
           <nav>
             <ul class="navbar-nav text-center">
               <li class="nav-item">
@@ -423,7 +427,7 @@
             </ul>
           </nav>
         </div>
-        <div class="col">
+        <div class="col col-12 col-md-4">
           <ul class="navbar-nav text-center">
             <li class="nav-item">
               <a class="nav-link" href="privacy.pdf" target="_blank">Privacy Policy</a>
